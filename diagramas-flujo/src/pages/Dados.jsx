@@ -129,7 +129,7 @@ export default function Dados() {
 
                 <div className="botones">
                   <button onClick={manejarSimulacion} className="btn-simular">
-                    Ejecutar Simulación
+                    Simular
                   </button>
                   <button onClick={limpiar} className="btn-limpiar">
                     Limpiar
