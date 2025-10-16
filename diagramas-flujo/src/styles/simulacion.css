@@ -176,6 +176,39 @@
     margin-bottom: 20px;
     width: 100%;
   }
+  .tabla-rangos {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    font-size: 0.8rem; /* ✅ Más pequeña */
+    min-width: unset; /* ✅ Evita el ancho mínimo de 950px */
+    table-layout: auto; /* ✅ Permite ajuste automático */
+  }
+  
+  .tabla-rangos th {
+    background: #667eea;
+    color: white;
+    padding: 6px 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+  
+  .tabla-rangos td {
+    padding: 6px 8px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333;
+  }
+  
+  .tabla-rangos tbody tr:nth-child(even) {
+    background: #fafafa;
+  }
+  
+  .tabla-rangos tbody tr:hover {
+    background: #f0f4ff;
+  }
   
   /* La tabla conserva estructura estable y scroll si es necesario */
   .tabla-resultados {
