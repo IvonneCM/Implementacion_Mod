@@ -50,10 +50,12 @@
   
   .columnas {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 350px auto; /* izquierda fija, derecha flexible */
     gap: 30px;
     margin-top: 20px;
   }
+  
+ 
   
   .columna-izquierda,
   .columna-derecha {

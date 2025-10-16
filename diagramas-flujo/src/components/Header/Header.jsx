@@ -18,6 +18,8 @@ export default function Header() {
             <Link to="/tienda" className={styles.link}>tienda</Link>
             <Link to="/huevos" className={styles.link}>Huevos</Link>
             <Link to="/dados" className={styles.link}>Dados</Link>
+            <Link to="/tasa-fija" className={styles.link}>Taza fija</Link>            
+            <Link to="/tasa-variable" className={styles.link}>Taza variable</Link>
           </nav>
         </div>
       </div>
